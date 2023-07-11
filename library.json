@@ -1,5 +1,5 @@
 {
-  "name": "logging",
+  "name": "ESP32LoggingHelper",
   "version": "0.0.1",
   "description": "Logging library",
   "keywords": "ESP32, logging, ANSI",
