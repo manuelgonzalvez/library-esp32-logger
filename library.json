@@ -1,0 +1,28 @@
+{
+  "name": "logging",
+  "version": "0.0.1",
+  "description": "Logging library",
+  "keywords": "ESP32, logging, ANSI",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manuelgonzalvez/library-esp32-logger.git"
+  },
+  "authors": [
+    {
+      "name": "Manuel Gonzalvez",
+      "email": "manuelgonzalvez@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "exclude": [
+    "test"
+  ],
+  "frameworks": "arduino",
+  "platforms": "espressif32",
+  "build": {
+    "includeDir": "lib/logging",
+    "flags": [
+      "-I lib/logging/src"
+    ]
+  }
+}
