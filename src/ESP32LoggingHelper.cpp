@@ -5,6 +5,7 @@ loglevels log_level;
 std::map<String, logger *> loggers;
 std::mutex loggerList::mtx;
 std::mutex logger::mtxl;
+
 // logger::logger(uint8_t level)
 // {
 //     this->_level = level;

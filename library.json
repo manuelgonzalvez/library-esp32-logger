@@ -20,9 +20,9 @@
   "frameworks": "arduino",
   "platforms": "espressif32",
   "build": {
-    "includeDir": "lib/logging",
+    "includeDir": "lib/ESP32LoggingHelper",
     "flags": [
-      "-I lib/logging/src"
+      "-I lib/ESP32LoggingHelper/src"
     ]
   }
 }
