@@ -5,9 +5,7 @@
 #include <map>
 #include <mutex>
 
-
 // #define USE_MUTEX //Habilita el uso de un mutex previo a cada print. en implementaciones multithread puede ralentizar la ejecucion de todo!
-
 
 typedef enum
 {
