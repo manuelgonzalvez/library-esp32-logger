@@ -45,8 +45,8 @@ extern logger myLoggerB;
 
 #include "helpers.h"
 
-// Create a logger with a specific log level and name
-logger myLoggerA(LOGGER_DEBUG, "myLoggerA");
+// Create a logger with a specific log level and name, and add it to the loggerList array
+logger myLoggerA(LOGGER_DEBUG, "myLoggerA",true);
 ```
 
 > classB.cpp
@@ -55,10 +55,10 @@ logger myLoggerA(LOGGER_DEBUG, "myLoggerA");
 
 #include "helpers.h"
 
-// Create a logger with a specific log level and name
+// Create a logger with a specific log level and name, logger not added to the list.
 logger myLoggerB(LOGGER_DEBUG, "myLoggerB");
 ```
-1
+
 
 
 
@@ -130,5 +130,5 @@ This library is released under the [MIT License](https://opensource.org/licenses
 
 ## Credits
 
-The MyLogging library was developed by [Manuel Gonzalvez]. If you have any questions or suggestions, please feel free to contact me at [manuelgonzalvez@gmail.com].
+The MyLogging library was developed by Manuel Gonzalvez. If you have any questions or suggestions, please feel free to contact me at __manuelgonzalvez@gmail.com__.
 
