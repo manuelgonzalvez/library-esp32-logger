@@ -2,7 +2,7 @@
 
 Esta libreria es un complemento simple al Serial.x(Arduino) o log_x(ESP) para habilitar dinamicamente niveles de logging en el codigo.
 
-** Warning ** Documentacion en desarrollo
+> **Warning** Documentacion en desarrollo
 
 ## Caracteristicas
 
