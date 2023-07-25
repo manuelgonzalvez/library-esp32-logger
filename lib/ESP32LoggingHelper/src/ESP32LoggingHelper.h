@@ -59,4 +59,4 @@ public:
 
 };
 
-#endif mylogging_h
+#endif
